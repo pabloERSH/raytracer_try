@@ -95,6 +95,15 @@ template <size_t dim, typename T> std::ostream& operator<<(std::ostream& out, co
 	return out;
 }
 
+template <size_t dim, typename T>bool operator ==(const vec<dim, T>& lv, const vec<dim, T>& pv) {
+	for (size_t i = 0; i < dim; i++) {
+		if (lv[i] != pv[i]) {
+			return false;
+		}
+	}
+	return true;
+}
+
 typedef vec<2, float> vec2f;
 typedef vec<3, float> vec3f;
 typedef vec<3, int> vec3i;
@@ -143,6 +152,14 @@ template <typename T> struct vec<3, T> {
 			std::cout << ex.what() << std::endl;
 		}
 		return i <= 0 ? x : (1 == i ? y : z);
+	}
+
+	T norm() const {
+		return std::sqrt((*this) * (*this));
+	}
+
+	vec<3, T> normalize() const {
+		return (*this) / norm();
 	}
 
 private:
