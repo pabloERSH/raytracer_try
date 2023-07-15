@@ -1,0 +1,44 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (трассировщик лучей.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Source.cpp
+C:\Users\User_23\MY_PROJECTS\raytracer_try\Source.cpp(124,16): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User_23\MY_PROJECTS\raytracer_try\Source.cpp(125,16): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User_23\MY_PROJECTS\raytracer_try\Source.cpp(126,16): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\User_23\MY_PROJECTS\raytracer_try\Source.cpp(148,47): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+C:\Users\User_23\MY_PROJECTS\raytracer_try\Source.cpp(148,75): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+C:\Users\User_23\MY_PROJECTS\raytracer_try\Source.cpp(149,50): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+C:\Users\User_23\MY_PROJECTS\raytracer_try\Source.cpp(149,72): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+C:\Users\User_23\MY_PROJECTS\raytracer_try\Source.cpp(150,48): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+C:\Users\User_23\MY_PROJECTS\raytracer_try\Source.cpp(151,46): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+C:\Users\User_23\MY_PROJECTS\raytracer_try\Source.cpp(151,68): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+C:\Users\User_23\MY_PROJECTS\raytracer_try\Source.cpp(160,57): warning C4305: аргумент: усечение из "double" в "const float"
+C:\Users\User_23\MY_PROJECTS\raytracer_try\Source.cpp(164,48): warning C4305: аргумент: усечение из "double" в "const float"
+C:\Users\User_23\MY_PROJECTS\raytracer_try\Source.cpp(165,47): warning C4305: аргумент: усечение из "double" в "const float"
+  raytracer_try.vcxproj -> C:\Users\User_23\MY_PROJECTS\raytracer_try\x64\Debug\raytracer_try.exe
