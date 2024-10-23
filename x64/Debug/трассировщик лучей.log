@@ -1,4 +1,0 @@
-﻿  Source.cpp
-C:\Users\User_23\source\repos\трассировщик лучей\трассировщик лучей\Source.cpp(57,12): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-C:\Users\User_23\source\repos\трассировщик лучей\трассировщик лучей\Source.cpp(58,12): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-  трассировщик лучей.vcxproj -> C:\Users\User_23\source\repos\трассировщик лучей\x64\Debug\трассировщик лучей.exe
